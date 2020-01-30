@@ -4,3 +4,4 @@ def reverse_each_word(sentence)
   array1.each { |words| array2 << sentence.reverse }
 end   
   array2.join(" ")
+end  
