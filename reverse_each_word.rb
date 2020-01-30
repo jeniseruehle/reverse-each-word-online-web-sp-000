@@ -1,4 +1,4 @@
-huh = [""]
+huh = ["Hello there, and how are you?"]
 
 def reverse_each_word(sentence)
   array = []
@@ -7,3 +7,5 @@ def reverse_each_word(sentence)
   end 
   array.join(" ")
 end   
+
+puts reverse_each_word(huh)
